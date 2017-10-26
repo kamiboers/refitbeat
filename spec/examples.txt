@@ -1,6 +1,6 @@
 example_id                                         | status  | run_time        |
 -------------------------------------------------- | ------- | --------------- |
-./spec/controllers/pages_controller_spec.rb[1:1:1] | passed  | 0.03565 seconds |
-./spec/features/login_page_spec.rb[1:1]            | failed  | 0.21697 seconds |
-./spec/helpers/pages_helper_spec.rb[1:1]           | pending | 0.00001 seconds |
-./spec/views/pages/home.html.erb_spec.rb[1:1]      | pending | 0.00003 seconds |
+./spec/controllers/pages_controller_spec.rb[1:1:1] | passed  | 0.01745 seconds |
+./spec/features/login_page_spec.rb[1:1]            | passed  | 0.24641 seconds |
+./spec/helpers/pages_helper_spec.rb[1:1]           | pending | 0.00008 seconds |
+./spec/views/pages/home.html.erb_spec.rb[1:1]      | pending | 0.00001 seconds |
