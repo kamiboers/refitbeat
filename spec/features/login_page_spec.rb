@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe "login page", :type => :request do
+RSpec.feature "login page", :type => :feature do
   it "displays welcome and `login to fitbit` button" do
-    get "/"
+    visit "/"
     
     expect(page).to have_content('Welcome to Fitbeat')
     expect(page).to have_content('Please log in with Fitbit to continue')
